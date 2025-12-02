@@ -26,3 +26,11 @@ body {
 .botana {
   padding: .5rem .3rem;
 }
+
+.semilla {
+  background-color: lightsalmon;
+}
+
+.picante {
+  background-color: red;
+}
