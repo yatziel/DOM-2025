@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  color: white;
+  background-color: darkslateblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.apachurra {
+  padding: .5rem 1rem;
+  border-radius: .8rem;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: darkslateblue;
+  background-color: lightgreen;
+  cursor: pointer;
+  scale: 1;
+  transition: all 0.3s ease; 
+}
+
+.apachurra:hover { 
+  background-color: black;
+  color: whitesmoke;
+  scale: 1.1;
+}
+ 
+.apachurra:active {
+  scale: .9;
+}
